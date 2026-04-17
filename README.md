@@ -2,7 +2,7 @@
 
 
 
-These scripts allow the researcher to decompile an android application and scan it for potential malicious injection points that could jeopardize the consumer's private information. It returns the decompiled code and two reports for the researcher to analyze.
+These scripts allow the defender to decompile an android application and scan it for potential malicious injection points that could jeopardize the consumer's private information. It returns the decompiled code and two reports for the defender to analyze.
 
 
 
@@ -12,11 +12,7 @@ Threat Model:
 
 The attacker aims to obtain sensitive health data from mobile applications.
 
-Potential adversaries include:
 
-* third-party analytics libraries
-* advertising SDKs
-* external network services receiving app data
 
 Attackers may exploit insecure data handling practices or excessive data collection.
 
