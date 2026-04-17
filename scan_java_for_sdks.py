@@ -51,8 +51,8 @@ def scan_java_for_sdks(decompiled_dir: str):
             print("Flagged third party libraries found.")
             for sdk in found_sdks:
                 print(f"\t{sdk}")
-            else:
-                print("No flagged third party libraries found.")
+        else:
+            print("No flagged third party libraries found.")
 
 if __name__ == "__main__":
     DECOMPILED_OUTPUT = "./DECOMPILED_APKS"

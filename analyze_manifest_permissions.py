@@ -26,7 +26,7 @@ def analyze_manifest_permissions(decompiled_dir: str):
     ns = {'android': 'http://schemas.android.com/apk/res/android'}
 
     for manifest_path in manifests:
-        app_name = manifest_path.parent.name;
+        app_name = manifest_path.relative_to(base_dir).parts[0]
         print(f"Analyzing {app_name}")
 
         try:

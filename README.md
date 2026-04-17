@@ -1,4 +1,26 @@
-# Project2
+# Medical Android App Data Leakage Analysis Scripts
+
+
+
+These scripts allow the researcher to decompile an android application and scan it for potential malicious injection points that could jeopardize the consumer's private information. It returns the decompiled code and two reports for the researcher to analyze.
+
+
+
+Threat Model: 
+
+The attacker aims to obtain sensitive health data from mobile applications.
+
+Potential adversaries include:
+
+• third-party analytics libraries
+
+• advertising SDKs
+
+• external network services receiving app data
+
+Attackers may exploit insecure data handling practices or excessive data collection.
+
+The defender analyzes application behavior to detect potential privacy leakage.
 
 
 
@@ -9,7 +31,7 @@ Requirements:
 
 
 
-Set Up:
+Setup:
 
 Windows
 
@@ -26,7 +48,7 @@ Windows
 
 
 
-How to Use:
+How to Run:
 
 * In the root folder of this project you'll find/create APKS and DECOMPILED\_APKS folders
 * Place your APKS in the APKS folder
@@ -43,11 +65,21 @@ How to Use:
 
 
 
-OUTPUTS:
+Results:
 
 * A populated DECOMPILED\_APKS folder
 * A manifest\_results.txt file
 
   * results are in the order the files are in your folder
 * A sdk\_results.txt file
+
+
+
+Contributors:
+
+Eddie Soto-Ramirez
+
+Thinh Nguyen
+
+William Garcia
 
