@@ -73,8 +73,6 @@ Results:
 
 * A populated DECOMPILED\_APKS folder
 * A manifest\_results.txt file
-
-  * results are in the order the files are in your folder
 * A sdk\_results.txt file
 
 
