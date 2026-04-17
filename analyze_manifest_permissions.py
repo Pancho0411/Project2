@@ -27,7 +27,7 @@ def analyze_manifest_permissions(decompiled_dir: str):
 
     for manifest_path in manifests:
         app_name = manifest_path.relative_to(base_dir).parts[0]
-        print(f"Analyzing {app_name}")
+        print(f"\n\nAnalyzing {app_name}")
 
         try:
             tree = ET.parse(manifest_path)
