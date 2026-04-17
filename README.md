@@ -6,17 +6,17 @@ These scripts allow the researcher to decompile an android application and scan 
 
 
 
+
+
 Threat Model: 
 
 The attacker aims to obtain sensitive health data from mobile applications.
 
 Potential adversaries include:
 
-• third-party analytics libraries
-
-• advertising SDKs
-
-• external network services receiving app data
+* third-party analytics libraries
+* advertising SDKs
+* external network services receiving app data
 
 Attackers may exploit insecure data handling practices or excessive data collection.
 
@@ -24,10 +24,14 @@ The defender analyzes application behavior to detect potential privacy leakage.
 
 
 
+
+
 Requirements:
 
 * Python 3.13
 * JADX 1.5.5
+
+
 
 
 
@@ -48,6 +52,8 @@ Windows
 
 
 
+
+
 How to Run:
 
 * In the root folder of this project you'll find/create APKS and DECOMPILED\_APKS folders
@@ -65,6 +71,8 @@ How to Run:
 
 
 
+
+
 Results:
 
 * A populated DECOMPILED\_APKS folder
@@ -75,11 +83,11 @@ Results:
 
 
 
+
+
 Contributors:
 
-Eddie Soto-Ramirez
-
-Thinh Nguyen
-
-William Garcia
+* Eddie Soto-Ramirez
+* Thinh Nguyen
+* William Garcia
 
